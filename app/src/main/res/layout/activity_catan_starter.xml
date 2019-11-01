@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CatanStarter">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/spinnerCount7"
+        android:text="Number of Players"/>
+
+    <Spinner
+        android:id="@+id/spinnerPlayer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dice mode"/>
+
+    <Spinner
+        android:id="@+id/spinnerDice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Season Mode"/>
+
+    <Spinner
+        android:id="@+id/spinnerSeason"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Count Sevens"/>
+
+    <Spinner
+        android:id="@+id/spinnerCount7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"/>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/buttonFinish"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Finish"
+            tools:layout_editor_absoluteX="161dp"
+            tools:layout_editor_absoluteY="666dp"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/spinnerCount7"
+            tools:ignore="NotSibling" />
+
+    </RelativeLayout>
+
+
+</LinearLayout>
